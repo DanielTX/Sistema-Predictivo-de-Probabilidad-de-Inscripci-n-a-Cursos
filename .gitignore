@@ -1,0 +1,68 @@
+# ========================
+# DEPENDENCIAS
+# ========================
+node_modules/
+venv/
+env/
+.env
+
+# ========================
+# FIREBASE — CREDENCIALES
+# ========================
+serviceAccountKey.json
+*serviceAccount*.json
+.env.local
+.env.development
+.env.production
+
+# ========================
+# BUILD / DIST
+# ========================
+dist/
+build/
+*.egg-info/
+
+# ========================
+# PYTHON
+# ========================
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pyc
+instance/
+
+# ========================
+# LOGS
+# ========================
+*.log
+logs/
+
+# ========================
+# SISTEMA OPERATIVO
+# ========================
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ========================
+# EDITORES / IDEs
+# ========================
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# ========================
+# COBERTURA / TESTS
+# ========================
+coverage/
+.coverage
+htmlcov/
+.pytest_cache/
+
+# ========================
+# MISC
+# ========================
+*.zip
+*.tar.gz
